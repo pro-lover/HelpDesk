@@ -3,19 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { PostsComponent } from './posts/posts.component';
-import { UsersComponent } from './users/users.component';
-import { DetailsComponent } from './details/details.component';
-
 import { HttpClientModule }  from '@angular/common/http';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { AboutComponent } from './about/about.component';
+import { SearchComponent } from './search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
-    PostsComponent,
-    UsersComponent,
-    DetailsComponent
+    LandingPageComponent,
+    LoginComponent,
+    RegistrationComponent,
+    AboutComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

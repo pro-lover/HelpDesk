@@ -1,22 +1,34 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UsersComponent } from './users/users.component';
-import { DetailsComponent } from './details/details.component';
-import { PostsComponent } from './posts/posts.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { SearchComponent } from './search/search.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    component: UsersComponent
+    component: LandingPageComponent
   },
   {
-    path: 'details/:id',
-    component: DetailsComponent
+    path: 'about',
+    component: AboutComponent
   },
   {
-    path: 'posts',
-    component: PostsComponent
+    path: 'login',
+    component: LoginComponent
+  }
+  ,
+  {
+    path: 'registration',
+    component: RegistrationComponent
+  }
+  ,
+  {
+    path: 'search',
+    component: SearchComponent
   }
 ];
 
