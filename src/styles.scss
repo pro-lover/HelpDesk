@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    /*background-image:;*/
+    background-position-x: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.Helpdesk
+{
+    background:rgb(66,76,99);
+    text-align: center;
+}
+.Helpdesk ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Helpdesk ul li
+{
+    width: 200px;
+    margin: 15px;
+    padding: 0px;
+}
+.Helpdesk ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.active, .Helpdesk ul li:hover
+{
+    background: #26a9d1;
+
+}
+.logo{
+    margin-right: 200px;
+}
+.Helpdesk ul li i
+{
+    margin: 5px;
+    
+}
+.sub-Helpdesk-1
+{
+    display: none;
+}
+.Helpdesk ul li:hover .sub-Helpdesk-1
+{
+    display: block;
+    position: absolute;
+    background:rgb(66,76,99) ; 
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.Helpdesk ul li:hover .sub-Helpdesk-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.Helpdesk ul li:hover .sub-Helpdesk-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Helpdesk ul li:hover .sub-Helpdesk-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.Helpdesk ul li:hover .sub-Helpdesk-1 ul li a:hover
+{
+    color: rgb(68, 157, 230) ;
+}
+.fa-angle-right
+{
+    float:right;
+}
