@@ -9,6 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { AboutComponent } from './about/about.component';
 import { SearchComponent } from './search/search.component';
+import { AboutusComponent } from './about/aboutus/aboutus.component';
+import { ContactComponent } from './about/contact/contact.component';
+import { ServicesComponent } from './about/services/services.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,10 @@ import { SearchComponent } from './search/search.component';
     LoginComponent,
     RegistrationComponent,
     AboutComponent,
-    SearchComponent
+    SearchComponent,
+    AboutusComponent,
+    ContactComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
