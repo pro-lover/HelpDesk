@@ -1,0 +1,73 @@
+
+
+  form{
+    .form_bord{
+       margin: 0%; 
+    }
+
+    border-style: inset;
+    background:darkgrey;
+    margin: 5% 30% 5% 30%;
+    padding: 30px;
+    .body_login{
+        border-style: inset;
+        text-align: center;
+    }
+    .header_Login{
+        img{
+            width:20%;
+            height: 50%;
+            border:  2px solid rgb(100, 100, 131);
+            border-radius: 50px;
+            }
+         text-align: center;
+    
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      input[type=Password], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      
+      input[type=submit] {
+        width: 30%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #97f59c;
+      }
+      a[class=Forget_password]{
+          margin-left: 70%;
+      }
+      a[class=signup]{
+          margin-right: 20%;
+      }
+      .cancel{
+          margin-left:70%;
+      }
+      
+}
+
+  
