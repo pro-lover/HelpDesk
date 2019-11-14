@@ -5,6 +5,9 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { SearchComponent } from './search/search.component';
+import { AboutusComponent } from './about/aboutus/aboutus.component';
+import { ContactComponent } from './about/contact/contact.component';
+import { ServicesComponent } from './about/services/services.component';
 
 
 const routes: Routes = [
@@ -29,6 +32,18 @@ const routes: Routes = [
   {
     path: 'search',
     component: SearchComponent
+  },
+  {
+    path: 'aboutus',
+    component: AboutusComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
+  },
+  {
+    path: 'services',
+    component: ServicesComponent
   }
 ];
 
