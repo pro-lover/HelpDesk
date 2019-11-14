@@ -1,1 +1,35 @@
-<p>search works!</p>
+
+ 
+    <div class = "container">
+        <div class = "header_search">
+            <h1>
+                Search
+            </h1>
+        </div>
+        <div class = "body_search">
+                
+                <input type="text" ng-model = "searchBox">
+                <div ng-controller = "people">
+                    <ul>
+                        <h2>
+                            Search
+                        </h2>
+                        <li ng-repeat="person in persons | filter:searchBox">
+                            {{person.Name + ':' + person.Age}}
+
+                        </li>
+                    </ul>
+                </div>
+                <input type="submit">
+                <button (click)="Testing()">submit</button>
+        </div>
+
+        <button (click)="Testing()">Display Name</button>
+        <input id="txtName" type="text">
+
+        <p id="demo"></p>
+
+
+    </div>
+
+    
